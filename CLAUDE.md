@@ -1,6 +1,6 @@
 ## Project
 
-Interactive terminal Mandelbrot set explorer. Renders the Mandelbrot set as ASCII art using character density to represent escape speed. Supports keyboard-driven panning, zooming, and iteration control. Run with:
+Interactive terminal Mandelbrot set explorer with truecolor rendering. Supports keyboard-driven panning, zooming, iteration control, and preset locations for famous regions. Run with:
 
 ```sh
 bun index.ts
@@ -16,6 +16,8 @@ Controls:
 - Arrow keys — pan
 - `+`/`-` — zoom in/out (2x)
 - `[`/`]` — decrease/increase iterations by 50
+- `c` — toggle color / ASCII mode
+- `1`-`5` — jump to preset location (Seahorse Valley, Elephant Valley, Double Spiral, Mini Mandelbrot, Lightning)
 - `r` — reset to default view
 - `q` — quit
 
